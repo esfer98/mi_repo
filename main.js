@@ -1,5 +1,5 @@
-document.querySelector(".menu-btn").addEventListener("click", () => {
-    document.querySelector(".nav-menu").classList.toggle("show");
+document.querySelector(".container").addEventListener("click", () => {
+    document.querySelector(".navbar-toggler-icon").classList.toggle("show");
   });
   
   ScrollReveal().reveal('.showcase');
