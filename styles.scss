@@ -1,0 +1,53 @@
+$subrayado: underline 2px white;
+
+.page-header {
+    text-decoration: solid;
+    h3 {
+        text-decoration: $subrayado;
+    }
+    a {
+        border: solid;
+    }
+}
+
+body {
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .jumbotron {
+    color: white;
+    width: 100%;
+    height: 350px;
+    background: url("imagenes/fondo.jpg");
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  ol {
+    color: white;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+  }
+  
+  .first-day {
+    grid-column-start: 3;
+  }
+  
+  .mes {
+    background-color: rgb(252, 249, 249);
+    font-weight: bold;
+  }
+  
+  .day-name {
+    background-color: rgb(14, 14, 14);
+    font-weight: bold;
+  }
+  
+  .calendario {
+    text-align: center;
+    width: 300px;
+  }
+  

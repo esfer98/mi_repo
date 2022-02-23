@@ -1,3 +1,17 @@
+.page-header {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.page-header h3 {
+  -webkit-text-decoration: underline 2px white;
+          text-decoration: underline 2px white;
+}
+
+.page-header a {
+  border: solid;
+}
+
 body {
   background-color: black;
   font-family: "Oswald", sans-serif;
@@ -15,22 +29,25 @@ body {
 ol {
   color: white;
   list-style: none;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
   padding: 0;
 }
 
 .first-day {
-  grid-column-start: 3;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
 }
 
 .mes {
-  background-color: rgb(252, 249, 249);
+  background-color: #fcf9f9;
   font-weight: bold;
 }
 
 .day-name {
-  background-color: rgb(14, 14, 14);
+  background-color: #0e0e0e;
   font-weight: bold;
 }
 
@@ -38,6 +55,7 @@ ol {
   text-align: center;
   width: 300px;
 }
+<<<<<<< HEAD
 
 /* CSS CON GRID
 /* Global
@@ -299,4 +317,7 @@ hr {
     }
   }*/
   
+>>>>>>> nueva_rama
+=======
+/*# sourceMappingURL=styles.css.map */
 >>>>>>> nueva_rama
