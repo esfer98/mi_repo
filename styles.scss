@@ -1,4 +1,13 @@
 $subrayado: underline 2px white;
+$estilos: (
+  color: black,
+  font: "Oswald", sans-serif,
+);
+
+@mixin sizes ($width; $height) {
+  height: $height;
+  width: $width;
+}
 
 .page-header {
     text-decoration: solid;
@@ -11,14 +20,15 @@ $subrayado: underline 2px white;
 }
 
 body {
-    background-color: black;
-    font-family: "Oswald", sans-serif;
+    background-color: map-get($map: $estilos, $key: color);
+    font-family: map-get($map: $estilos, $key: font);
   }
   
   .jumbotron {
     color: white;
-    width: 100%;
-    height: 350px;
+    @include sizes(100%; 350px)
+    /*width: 100%;
+    height: 350px;*/
     background: url("imagenes/fondo.jpg");
     background-size: cover;
     overflow: hidden;
@@ -42,12 +52,12 @@ body {
   }
   
   .day-name {
+    @extend .mes;
     background-color: rgb(14, 14, 14);
-    font-weight: bold;
+    /*font-weight: bold;*/
   }
   
   .calendario {
     text-align: center;
     width: 300px;
   }
-  

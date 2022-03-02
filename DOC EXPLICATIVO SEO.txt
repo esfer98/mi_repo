@@ -1,0 +1,25 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+- Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Este es el sitio web del proyecto IDENTIDY dedicado al mejoramiento del sistema de pagos"
+- Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "BLOCKCHAIN, CRIPTO, PAGOS, HUELLA DIGITAL"
+- Encabezado: para el encabezado del h3 utilicé el texto “IDENTIDY”
+
+En el archivo DESCRIPCION DEL PROYECTO.html sumé el SEO con las siguientes características:
+- Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “USO Y APLICATIVOS DEL PROYECTO"
+- Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "BLOCKCHAIN, CRIPTO, PAGOS, HUELLA DIGITAL"
+- Encabezado: para el encabezado del h3 utilicé el texto “IDENTIDY”
+
+En el archivo HOJA DE RUTA.html sumé el SEO con las siguientes características:
+- Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Pasos a seguir y tiempos de aplicación"
+- Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "BLOCKCHAIN, CRIPTO, PAGOS, HUELLA DIGITAL"
+- Encabezado: para el encabezado del h3 utilicé el texto “IDENTIDY”
+
+En el archivo ORGANIGRAMA.html sumé el SEO con las siguientes características:
+- Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Composición del equipo principal"
+- Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "BLOCKCHAIN, CRIPTO, PAGOS, HUELLA DIGITAL"
+- Encabezado: para el encabezado del h3 utilicé el texto “IDENTIDY”
+
+En el archivo UTILIDADES.html sumé el SEO con las siguientes características:
+- Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Aplicaciones de nuestro proyecto y como mejoraremos el futuro"
+- Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "BLOCKCHAIN, CRIPTO, PAGOS, HUELLA DIGITAL"
+- Encabezado: para el encabezado del h3 utilicé el texto “IDENTIDY”
+
