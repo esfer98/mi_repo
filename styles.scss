@@ -1,7 +1,7 @@
 $subrayado: underline 2px white;
 $estilos: (
   color: black,
-  font: "Oswald", sans-serif,
+  font: "Oswald" sans-serif,
 );
 
 @mixin sizes ($width; $height) {
@@ -26,7 +26,7 @@ body {
   
   .jumbotron {
     color: white;
-    @include sizes(100%; 350px)
+    @include sizes(100%; 350px);
     /*width: 100%;
     height: 350px;*/
     background: url("imagenes/fondo.jpg");
@@ -38,6 +38,7 @@ body {
     color: white;
     list-style: none;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(7, 1fr);
     padding: 0;
   }
